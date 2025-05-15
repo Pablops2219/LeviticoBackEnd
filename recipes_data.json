@@ -1,0 +1,855 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Paella Valenciana",
+      "description": "Plato tradicional valenciano de arroz con pollo, conejo y verduras.",
+      "time": 90,
+      "difficulty": "difícil"
+    },
+    {
+      "id": 2,
+      "name": "Fideuà",
+      "description": "Plato de mariscos similar a la paella pero hecho con fideos en lugar de arroz.",
+      "time": 60,
+      "difficulty": "medio"
+    },
+    {
+      "id": 3,
+      "name": "All i Pebre",
+      "description": "Guiso tradicional de anguilas con patatas y pimentón.",
+      "time": 75,
+      "difficulty": "medio"
+    },
+    {
+      "id": 4,
+      "name": "Esgarraet",
+      "description": "Ensalada fría de pimientos asados, bacalao y ajo.",
+      "time": 30,
+      "difficulty": "fácil"
+    },
+    {
+      "id": 5,
+      "name": "Arroz al Horno",
+      "description": "Arroz cocido al horno con costillas, garbanzos y tomate.",
+      "time": 80,
+      "difficulty": "medio"
+    },
+    {
+      "id": 6,
+      "name": "Coca de Tomate",
+      "description": "Masa fina cubierta con tomate, ajo y aceite de oliva.",
+      "time": 45,
+      "difficulty": "fácil"
+    },
+    {
+      "id": 7,
+      "name": "Arròs Negre",
+      "description": "Arroz negro con tinta de calamar y mariscos.",
+      "time": 70,
+      "difficulty": "medio"
+    },
+    {
+      "id": 8,
+      "name": "Horchata de Chufa",
+      "description": "Bebida refrescante hecha con chufas, típica de Valencia.",
+      "time": 15,
+      "difficulty": "fácil"
+    },
+    {
+      "id": 9,
+      "name": "Canelons",
+      "description": "Canelones rellenos de carne y bechamel, gratinados al horno.",
+      "time": 90,
+      "difficulty": "difícil"
+    },
+    {
+      "id": 10,
+      "name": "Turrón",
+      "description": "Dulce tradicional de almendra y miel, típico de Navidad.",
+      "time": 120,
+      "difficulty": "difícil"
+    }
+  ],
+  "ingredients": [
+    {
+      "id": 1,
+      "name": "Arroz",
+      "price_per_kilo": 1.80
+    },
+    {
+      "id": 2,
+      "name": "Pollo",
+      "price_per_kilo": 4.50
+    },
+    {
+      "id": 3,
+      "name": "Conejo",
+      "price_per_kilo": 5.00
+    },
+    {
+      "id": 4,
+      "name": "Judías Verdes",
+      "price_per_kilo": 2.00
+    },
+    {
+      "id": 5,
+      "name": "Garrofó",
+      "price_per_kilo": 3.00
+    },
+    {
+      "id": 6,
+      "name": "Tomate",
+      "price_per_kilo": 1.50
+    },
+    {
+      "id": 7,
+      "name": "Aceite de Oliva",
+      "price_per_kilo": 6.00
+    },
+    {
+      "id": 8,
+      "name": "Fideos",
+      "price_per_kilo": 1.50
+    },
+    {
+      "id": 9,
+      "name": "Mezcla de Mariscos",
+      "price_per_kilo": 10.00
+    },
+    {
+      "id": 10,
+      "name": "Ajo",
+      "price_per_kilo": 4.00
+    },
+    {
+      "id": 11,
+      "name": "Pimentón",
+      "price_per_kilo": 15.00
+    },
+    {
+      "id": 12,
+      "name": "Anguila",
+      "price_per_kilo": 8.00
+    },
+    {
+      "id": 13,
+      "name": "Patatas",
+      "price_per_kilo": 1.20
+    },
+    {
+      "id": 14,
+      "name": "Bacalao",
+      "price_per_kilo": 12.00
+    },
+    {
+      "id": 15,
+      "name": "Garbanzos",
+      "price_per_kilo": 2.50
+    },
+    {
+      "id": 16,
+      "name": "Costillas",
+      "price_per_kilo": 4.00
+    },
+    {
+      "id": 17,
+      "name": "Masa",
+      "price_per_kilo": 1.00
+    },
+    {
+      "id": 18,
+      "name": "Calamar",
+      "price_per_kilo": 9.00
+    },
+    {
+      "id": 19,
+      "name": "Chufa",
+      "price_per_kilo": 7.00
+    },
+    {
+      "id": 20,
+      "name": "Carne Picada",
+      "price_per_kilo": 6.00
+    },
+    {
+      "id": 21,
+      "name": "Bechamel",
+      "price_per_kilo": 3.00
+    },
+    {
+      "id": 22,
+      "name": "Almendra",
+      "price_per_kilo": 15.00
+    },
+    {
+      "id": 23,
+      "name": "Miel",
+      "price_per_kilo": 10.00
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "recipe_id": 1,
+      "name": "Preparar Ingredientes",
+      "description": "Cortar pollo, conejo y verduras.",
+      "step_order": 1
+    },
+    {
+      "id": 2,
+      "recipe_id": 1,
+      "name": "Sofreír Carne y Verduras",
+      "description": "Sofreír pollo, conejo, judías verdes y garrofó en aceite de oliva.",
+      "step_order": 2
+    },
+    {
+      "id": 3,
+      "recipe_id": 1,
+      "name": "Añadir Arroz y Caldo",
+      "description": "Añadir arroz y caldo, cocinar hasta que el arroz esté hecho.",
+      "step_order": 3
+    },
+    {
+      "id": 4,
+      "recipe_id": 1,
+      "name": "Cocinar a Fuego Lento",
+      "description": "Dejar cocinar a fuego lento hasta que el arroz absorba el caldo.",
+      "step_order": 4
+    },
+    {
+      "id": 5,
+      "recipe_id": 1,
+      "name": "Reposar y Servir",
+      "description": "Dejar reposar unos minutos antes de servir.",
+      "step_order": 5
+    },
+    {
+      "id": 6,
+      "recipe_id": 2,
+      "name": "Preparar Fideos",
+      "description": "Tostar los fideos en aceite de oliva hasta que estén dorados.",
+      "step_order": 1
+    },
+    {
+      "id": 7,
+      "recipe_id": 2,
+      "name": "Añadir Mariscos y Caldo",
+      "description": "Añadir mezcla de mariscos y caldo, cocinar hasta que los fideos estén tiernos.",
+      "step_order": 2
+    },
+    {
+      "id": 8,
+      "recipe_id": 2,
+      "name": "Cocinar a Fuego Medio",
+      "description": "Cocinar a fuego medio hasta que el caldo se reduzca.",
+      "step_order": 3
+    },
+    {
+      "id": 9,
+      "recipe_id": 2,
+      "name": "Reposar",
+      "description": "Dejar reposar unos minutos antes de servir.",
+      "step_order": 4
+    },
+    {
+      "id": 10,
+      "recipe_id": 2,
+      "name": "Servir",
+      "description": "Servir caliente y disfrutar.",
+      "step_order": 5
+    },
+    {
+      "id": 11,
+      "recipe_id": 3,
+      "name": "Preparar Anguilas",
+      "description": "Limpiar y cortar las anguilas.",
+      "step_order": 1
+    },
+    {
+      "id": 12,
+      "recipe_id": 3,
+      "name": "Sofreír Ajo y Pimentón",
+      "description": "Sofreír ajo y pimentón en aceite de oliva.",
+      "step_order": 2
+    },
+    {
+      "id": 13,
+      "recipe_id": 3,
+      "name": "Añadir Anguilas y Patatas",
+      "description": "Añadir anguilas y patatas, cocinar a fuego lento.",
+      "step_order": 3
+    },
+    {
+      "id": 14,
+      "recipe_id": 3,
+      "name": "Cocinar Guiso",
+      "description": "Dejar cocinar hasta que las patatas estén tiernas.",
+      "step_order": 4
+    },
+    {
+      "id": 15,
+      "recipe_id": 3,
+      "name": "Reposar y Servir",
+      "description": "Dejar reposar antes de servir.",
+      "step_order": 5
+    },
+    {
+      "id": 16,
+      "recipe_id": 4,
+      "name": "Asar Pimientos",
+      "description": "Asar los pimientos hasta que la piel esté quemada.",
+      "step_order": 1
+    },
+    {
+      "id": 17,
+      "recipe_id": 4,
+      "name": "Desmenuzar Bacalao",
+      "description": "Desmenuzar el bacalao y mezclar con ajo picado.",
+      "step_order": 2
+    },
+    {
+      "id": 18,
+      "recipe_id": 4,
+      "name": "Mezclar Ingredientes",
+      "description": "Mezclar pimientos, bacalao y ajo.",
+      "step_order": 3
+    },
+    {
+      "id": 19,
+      "recipe_id": 4,
+      "name": "Enfriar",
+      "description": "Dejar enfriar en la nevera antes de servir.",
+      "step_order": 4
+    },
+    {
+      "id": 20,
+      "recipe_id": 4,
+      "name": "Servir",
+      "description": "Servir frío como tapa o entrante.",
+      "step_order": 5
+    },
+    {
+      "id": 21,
+      "recipe_id": 5,
+      "name": "Preparar Ingredientes",
+      "description": "Cortar costillas, tomate y preparar garbanzos.",
+      "step_order": 1
+    },
+    {
+      "id": 22,
+      "recipe_id": 5,
+      "name": "Sofreír Costillas",
+      "description": "Sofreír las costillas en aceite de oliva.",
+      "step_order": 2
+    },
+    {
+      "id": 23,
+      "recipe_id": 5,
+      "name": "Añadir Garbanzos y Tomate",
+      "description": "Añadir garbanzos y tomate, cocinar unos minutos.",
+      "step_order": 3
+    },
+    {
+      "id": 24,
+      "recipe_id": 5,
+      "name": "Hornear Arroz",
+      "description": "Añadir arroz y hornear hasta que esté cocido.",
+      "step_order": 4
+    },
+    {
+      "id": 25,
+      "recipe_id": 5,
+      "name": "Reposar y Servir",
+      "description": "Dejar reposar antes de servir.",
+      "step_order": 5
+    },
+    {
+      "id": 26,
+      "recipe_id": 6,
+      "name": "Preparar Masa",
+      "description": "Extender la masa y preparar la cobertura de tomate y ajo.",
+      "step_order": 1
+    },
+    {
+      "id": 27,
+      "recipe_id": 6,
+      "name": "Cubrir Masa",
+      "description": "Cubrir la masa con tomate rallado y ajo picado.",
+      "step_order": 2
+    },
+    {
+      "id": 28,
+      "recipe_id": 6,
+      "name": "Hornear",
+      "description": "Hornear hasta que la masa esté crujiente.",
+      "step_order": 3
+    },
+    {
+      "id": 29,
+      "recipe_id": 6,
+      "name": "Enfriar",
+      "description": "Dejar enfriar antes de servir.",
+      "step_order": 4
+    },
+    {
+      "id": 30,
+      "recipe_id": 6,
+      "name": "Servir",
+      "description": "Servir como aperitivo o acompañamiento.",
+      "step_order": 5
+    },
+    {
+      "id": 31,
+      "recipe_id": 7,
+      "name": "Preparar Caldo",
+      "description": "Preparar caldo de pescado para el arroz negro.",
+      "step_order": 1
+    },
+    {
+      "id": 32,
+      "recipe_id": 7,
+      "name": "Sofreír Calamar",
+      "description": "Sofreír calamar y añadir tinta para dar color.",
+      "step_order": 2
+    },
+    {
+      "id": 33,
+      "recipe_id": 7,
+      "name": "Añadir Arroz y Caldo",
+      "description": "Añadir arroz y caldo, cocinar hasta que el arroz esté hecho.",
+      "step_order": 3
+    },
+    {
+      "id": 34,
+      "recipe_id": 7,
+      "name": "Cocinar a Fuego Medio",
+      "description": "Cocinar a fuego medio hasta que el caldo se reduzca.",
+      "step_order": 4
+    },
+    {
+      "id": 35,
+      "recipe_id": 7,
+      "name": "Reposar y Servir",
+      "description": "Dejar reposar antes de servir.",
+      "step_order": 5
+    },
+    {
+      "id": 36,
+      "recipe_id": 8,
+      "name": "Preparar Chufas",
+      "description": "Lavar y remojar chufas para hacer horchata.",
+      "step_order": 1
+    },
+    {
+      "id": 37,
+      "recipe_id": 8,
+      "name": "Moler Chufas",
+      "description": "Moler chufas y mezclar con agua y azúcar.",
+      "step_order": 2
+    },
+    {
+      "id": 38,
+      "recipe_id": 8,
+      "name": "Colar Mezcla",
+      "description": "Colar la mezcla para obtener la horchata.",
+      "step_order": 3
+    },
+    {
+      "id": 39,
+      "recipe_id": 8,
+      "name": "Enfriar",
+      "description": "Enfriar en la nevera antes de servir.",
+      "step_order": 4
+    },
+    {
+      "id": 40,
+      "recipe_id": 8,
+      "name": "Servir",
+      "description": "Servir fría y disfrutar.",
+      "step_order": 5
+    },
+    {
+      "id": 41,
+      "recipe_id": 9,
+      "name": "Preparar Relleno",
+      "description": "Preparar relleno de carne picada y bechamel.",
+      "step_order": 1
+    },
+    {
+      "id": 42,
+      "recipe_id": 9,
+      "name": "Rellenar Canelones",
+      "description": "Rellenar los canelones con la mezcla preparada.",
+      "step_order": 2
+    },
+    {
+      "id": 43,
+      "recipe_id": 9,
+      "name": "Cubrir con Bechamel",
+      "description": "Cubrir los canelones con salsa bechamel.",
+      "step_order": 3
+    },
+    {
+      "id": 44,
+      "recipe_id": 9,
+      "name": "Gratinar",
+      "description": "Gratinar en el horno hasta que estén dorados.",
+      "step_order": 4
+    },
+    {
+      "id": 45,
+      "recipe_id": 9,
+      "name": "Servir",
+      "description": "Servir caliente.",
+      "step_order": 5
+    },
+    {
+      "id": 46,
+      "recipe_id": 10,
+      "name": "Preparar Almendras",
+      "description": "Tostar almendras y preparar miel para el turrón.",
+      "step_order": 1
+    },
+    {
+      "id": 47,
+      "recipe_id": 10,
+      "name": "Mezclar Ingredientes",
+      "description": "Mezclar almendras y miel para formar la masa.",
+      "step_order": 2
+    },
+    {
+      "id": 48,
+      "recipe_id": 10,
+      "name": "Formar Turrón",
+      "description": "Formar el turrón y dejar enfriar.",
+      "step_order": 3
+    },
+    {
+      "id": 49,
+      "recipe_id": 10,
+      "name": "Dejar Reposar",
+      "description": "Dejar reposar para que tome consistencia.",
+      "step_order": 4
+    },
+    {
+      "id": 50,
+      "recipe_id": 10,
+      "name": "Servir",
+      "description": "Servir como postre o dulce navideño.",
+      "step_order": 5
+    }
+  ],
+  "recipe_ingredients": [
+    {
+      "id": 1,
+      "recipe_id": 1,
+      "ingredient_id": 1,
+      "quantity": 0.3,
+      "unit": "kg"
+    },
+    {
+      "id": 2,
+      "recipe_id": 1,
+      "ingredient_id": 2,
+      "quantity": 0.4,
+      "unit": "kg"
+    },
+    {
+      "id": 3,
+      "recipe_id": 1,
+      "ingredient_id": 3,
+      "quantity": 0.3,
+      "unit": "kg"
+    },
+    {
+      "id": 4,
+      "recipe_id": 1,
+      "ingredient_id": 4,
+      "quantity": 0.2,
+      "unit": "kg"
+    },
+    {
+      "id": 5,
+      "recipe_id": 1,
+      "ingredient_id": 5,
+      "quantity": 0.15,
+      "unit": "kg"
+    },
+    {
+      "id": 6,
+      "recipe_id": 1,
+      "ingredient_id": 6,
+      "quantity": 0.1,
+      "unit": "kg"
+    },
+    {
+      "id": 7,
+      "recipe_id": 1,
+      "ingredient_id": 7,
+      "quantity": 0.05,
+      "unit": "kg"
+    },
+    {
+      "id": 8,
+      "recipe_id": 2,
+      "ingredient_id": 8,
+      "quantity": 0.25,
+      "unit": "kg"
+    },
+    {
+      "id": 9,
+      "recipe_id": 2,
+      "ingredient_id": 7,
+      "quantity": 0.05,
+      "unit": "kg"
+    },
+    {
+      "id": 10,
+      "recipe_id": 2,
+      "ingredient_id": 9,
+      "quantity": 0.4,
+      "unit": "kg"
+    },
+    {
+      "id": 11,
+      "recipe_id": 2,
+      "ingredient_id": 10,
+      "quantity": 0.02,
+      "unit": "kg"
+    },
+    {
+      "id": 12,
+      "recipe_id": 2,
+      "ingredient_id": 11,
+      "quantity": 0.01,
+      "unit": "kg"
+    },
+    {
+      "id": 13,
+      "recipe_id": 3,
+      "ingredient_id": 12,
+      "quantity": 0.5,
+      "unit": "kg"
+    },
+    {
+      "id": 14,
+      "recipe_id": 3,
+      "ingredient_id": 13,
+      "quantity": 0.3,
+      "unit": "kg"
+    },
+    {
+      "id": 15,
+      "recipe_id": 3,
+      "ingredient_id": 10,
+      "quantity": 0.05,
+      "unit": "kg"
+    },
+    {
+      "id": 16,
+      "recipe_id": 3,
+      "ingredient_id": 11,
+      "quantity": 0.02,
+      "unit": "kg"
+    },
+    {
+      "id": 17,
+      "recipe_id": 4,
+      "ingredient_id": 6,
+      "quantity": 0.15,
+      "unit": "kg"
+    },
+    {
+      "id": 18,
+      "recipe_id": 4,
+      "ingredient_id": 14,
+      "quantity": 0.3,
+      "unit": "kg"
+    },
+    {
+      "id": 19,
+      "recipe_id": 4,
+      "ingredient_id": 10,
+      "quantity": 0.05,
+      "unit": "kg"
+    },
+    {
+      "id": 20,
+      "recipe_id": 5,
+      "ingredient_id": 16,
+      "quantity": 0.4,
+      "unit": "kg"
+    },
+    {
+      "id": 21,
+      "recipe_id": 5,
+      "ingredient_id": 15,
+      "quantity": 0.2,
+      "unit": "kg"
+    },
+    {
+      "id": 22,
+      "recipe_id": 5,
+      "ingredient_id": 6,
+      "quantity": 0.1,
+      "unit": "kg"
+    },
+    {
+      "id": 23,
+      "recipe_id": 5,
+      "ingredient_id": 1,
+      "quantity": 0.3,
+      "unit": "kg"
+    },
+    {
+      "id": 24,
+      "recipe_id": 7,
+      "ingredient_id": 18,
+      "quantity": 0.4,
+      "unit": "kg"
+    },
+    {
+      "id": 25,
+      "recipe_id": 7,
+      "ingredient_id": 1,
+      "quantity": 0.3,
+      "unit": "kg"
+    },
+    {
+      "id": 26,
+      "recipe_id": 7,
+      "ingredient_id": 7,
+      "quantity": 0.05,
+      "unit": "kg"
+    },
+    {
+      "id": 27,
+      "recipe_id": 7,
+      "ingredient_id": 10,
+      "quantity": 0.02,
+      "unit": "kg"
+    },
+    {
+      "id": 28,
+      "recipe_id": 8,
+      "ingredient_id": 19,
+      "quantity": 0.3,
+      "unit": "kg"
+    },
+    {
+      "id": 29,
+      "recipe_id": 9,
+      "ingredient_id": 20,
+      "quantity": 0.4,
+      "unit": "kg"
+    },
+    {
+      "id": 30,
+      "recipe_id": 9,
+      "ingredient_id": 21,
+      "quantity": 0.2,
+      "unit": "kg"
+    },
+    {
+      "id": 31,
+      "recipe_id": 10,
+      "ingredient_id": 22,
+      "quantity": 0.3,
+      "unit": "kg"
+    },
+    {
+      "id": 32,
+      "recipe_id": 10,
+      "ingredient_id": 23,
+      "quantity": 0.2,
+      "unit": "kg"
+    }
+  ],
+  "step_ingredients": [
+    {
+      "id": 1,
+      "step_id": 1,
+      "ingredient_id": 2,
+      "quantity": 0.4,
+      "unit": "kg"
+    },
+    {
+      "id": 2,
+      "step_id": 1,
+      "ingredient_id": 3,
+      "quantity": 0.3,
+      "unit": "kg"
+    },
+    {
+      "id": 3,
+      "step_id": 1,
+      "ingredient_id": 4,
+      "quantity": 0.2,
+      "unit": "kg"
+    },
+    {
+      "id": 4,
+      "step_id": 1,
+      "ingredient_id": 5,
+      "quantity": 0.15,
+      "unit": "kg"
+    },
+    {
+      "id": 5,
+      "step_id": 1,
+      "ingredient_id": 7,
+      "quantity": 0.05,
+      "unit": "kg"
+    },
+    {
+      "id": 6,
+      "step_id": 2,
+      "ingredient_id": 6,
+      "quantity": 0.1,
+      "unit": "kg"
+    },
+    {
+      "id": 7,
+      "step_id": 2,
+      "ingredient_id": 7,
+      "quantity": 0.05,
+      "unit": "kg"
+    },
+    {
+      "id": 8,
+      "step_id": 4,
+      "ingredient_id": 8,
+      "quantity": 0.25,
+      "unit": "kg"
+    },
+    {
+      "id": 9,
+      "step_id": 5,
+      "ingredient_id": 7,
+      "quantity": 0.05,
+      "unit": "kg"
+    },
+    {
+      "id": 10,
+      "step_id": 5,
+      "ingredient_id": 9,
+      "quantity": 0.4,
+      "unit": "kg"
+    },
+    {
+      "id": 11,
+      "step_id": 5,
+      "ingredient_id": 10,
+      "quantity": 0.02,
+      "unit": "kg"
+    },
+    {
+      "id": 12,
+      "step_id": 5,
+      "ingredient_id": 11,
+      "quantity": 0.01,
+      "unit": "kg"
+    }
+  ]
+}
